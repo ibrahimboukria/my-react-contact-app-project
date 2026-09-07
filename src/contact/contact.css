@@ -1,0 +1,47 @@
+.container{
+   max-width: 600px;
+   margin: 30px auto;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin-top: 200px;
+}
+h2{
+    text-align: center;
+}
+.container-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contac-but{
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-info{
+    display: flex;
+    gap: 10px;
+}
+.contact-info p {
+    background-color: #18e741;
+    padding: 4px;
+    border-radius: 4px;
+}
+.add-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.add-contact input{
+    padding: 10px;
+    border-radius: 6px;
+
+}
+.add-contact button{
+    padding: 10px;
+    border-radius: 6px;
+    background-color: blue;
+    color: azure;
+}
