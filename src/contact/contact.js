@@ -4,7 +4,7 @@ import './contact.css';
 const Contacts = () => {
   const [contact, setContact] = useState([
     { name: 'ibrahim', number: '0555979315',id:'123' },
-    { name: 'emm', number: '052231658',id:'643' }
+    { name: 'G', number: '052231658',id:'643' }
   ]);
   const [na,setna]=useState();
   const[nu,setnu]=useState();
